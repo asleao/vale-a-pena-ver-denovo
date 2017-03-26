@@ -16,6 +16,6 @@ public class SensorTemperatura {
     }
 
     public void setTemperatura(int temperatura) {
-        this.temperatura = temperatura;
+        this.temperatura += temperatura;
     }
 }

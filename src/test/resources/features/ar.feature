@@ -1,28 +1,32 @@
-Feature: Controlar a temparatura interna da sala de aula.
+#language: pt
+Funcionalidade: Controlar a temparatura interna da sala de aula.
 
-  Scenario Outline: Calcular a temperatura ambiente externa.
-   Given os valores dos sensores X, Y, Z respectivamente <valorX>,<valorY>,<valorZ>
-    When realizo a media dos valores de cada sensor
-    Then o ar condicionado retorna o valor da <temperatura> ambiente
+  Esquema do Cenario: Calcular a temperatura ambiente externa.
+    Dado os valores dos sensores X, Y, Z respectivamente <valorX>,<valorY>,<valorZ>
+    Quando realizo a media dos valores de cada sensor
+    Então o ar condicionado retorna o valor da <temperatura> ambiente
 
-    Examples: Temperaturas positivas
+    Exemplos: Temperaturas positivas
     | valorX | valorY | valorZ | temperatura |
     |  20    |   20   |   20   |     20      |
     |  30    |   30   |   30   |     30      |
 
-    Examples: Temperaturas negativas
+    Exemplos: Temperaturas negativas
     | valorX | valorY | valorZ | temperatura |
     |  -1    |   -1   |   -1   |     -1      |
     |  -5    |   -5   |   -5   |     -5      |
 
 
-#  Scenario Outline: Calcular a temperatura ambiente interna.
-#    Given os valores dos sensores X, Y, Z respectivamente <valorX>,<valorY>,<valorZ>
-#    When realizo a media dos valores de cada sensor
-#    Then o sensor retorna a quantidade de <pessoas> na sala de aula
-#
-#    Examples: Quantidade de pessoas na sala
-#      | valorX | valorY | valorZ |  pessoas    |
-#      |  20    |   20   |   20   |     20      |
-#      |  30    |   30   |   30   |     30      |
+  Esquema do Cenario: Calcular a temperatura ambiente interna.
+    Dado que possuem <quantidadePessoas> pessoas em uma sala de aula
+    Quando os sensores <sensorX>, <sensorY> e <sensorZ> identificam a quantidade de pessoas na sala
+    Então o ar condicionado aumenta a <temperatura> em 1 grau para cada pessoa identificada.
+
+    Exemplos: Quantidade de pessoas na sala
+      | quantidadePessoas | sensorX | sensorY | sensorZ | temperatura |
+      |       0           |    0    |    0    |   0     |     0       |
+      |       15          |    15   |    15   |   15    |     15      |
+      |       30          |    30   |    30   |   30    |     30      |
+
+
 

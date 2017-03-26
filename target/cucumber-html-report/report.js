@@ -1,36 +1,42 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/ar.feature");
 formatter.feature({
-  "line": 1,
+  "comments": [
+    {
+      "line": 1,
+      "value": "#language: pt"
+    }
+  ],
+  "line": 2,
   "name": "Controlar a temparatura interna da sala de aula.",
   "description": "",
   "id": "controlar-a-temparatura-interna-da-sala-de-aula.",
-  "keyword": "Feature"
+  "keyword": "Funcionalidade"
 });
 formatter.scenarioOutline({
-  "line": 3,
+  "line": 4,
   "name": "Calcular a temperatura ambiente externa.",
   "description": "",
   "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "os valores dos sensores X, Y, Z respectivamente \u003cvalorX\u003e,\u003cvalorY\u003e,\u003cvalorZ\u003e",
-  "keyword": "Given "
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
   "line": 5,
-  "name": "realizo a media dos valores de cada sensor",
-  "keyword": "When "
+  "name": "os valores dos sensores X, Y, Z respectivamente \u003cvalorX\u003e,\u003cvalorY\u003e,\u003cvalorZ\u003e",
+  "keyword": "Dado "
 });
 formatter.step({
   "line": 6,
+  "name": "realizo a media dos valores de cada sensor",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
   "name": "o ar condicionado retorna o valor da \u003ctemperatura\u003e ambiente",
-  "keyword": "Then "
+  "keyword": "Então "
 });
 formatter.examples({
-  "line": 8,
+  "line": 9,
   "name": "Temperaturas positivas",
   "description": "",
   "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-positivas",
@@ -42,7 +48,7 @@ formatter.examples({
         "valorZ",
         "temperatura"
       ],
-      "line": 9,
+      "line": 10,
       "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-positivas;1"
     },
     {
@@ -52,7 +58,7 @@ formatter.examples({
         "20",
         "20"
       ],
-      "line": 10,
+      "line": 11,
       "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-positivas;2"
     },
     {
@@ -62,42 +68,42 @@ formatter.examples({
         "30",
         "30"
       ],
-      "line": 11,
+      "line": 12,
       "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-positivas;3"
     }
   ],
-  "keyword": "Examples"
+  "keyword": "Exemplos"
 });
 formatter.scenario({
-  "line": 10,
+  "line": 11,
   "name": "Calcular a temperatura ambiente externa.",
   "description": "",
   "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-positivas;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "os valores dos sensores X, Y, Z respectivamente 20,20,20",
   "matchedColumns": [
     0,
     1,
     2
   ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "realizo a media dos valores de cada sensor",
-  "keyword": "When "
+  "keyword": "Dado "
 });
 formatter.step({
   "line": 6,
+  "name": "realizo a media dos valores de cada sensor",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
   "name": "o ar condicionado retorna o valor da 20 ambiente",
   "matchedColumns": [
     3
   ],
-  "keyword": "Then "
+  "keyword": "Então "
 });
 formatter.match({
   "arguments": [
@@ -114,17 +120,17 @@ formatter.match({
       "offset": 54
     }
   ],
-  "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
+  "location": "ArSteps.osValoresDosSensoresXYZRespectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 226990480,
+  "duration": 212159926,
   "status": "passed"
 });
 formatter.match({
-  "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
+  "location": "ArSteps.realizoAMediaDosValoresDeCadaSensor()"
 });
 formatter.result({
-  "duration": 62078,
+  "duration": 61140,
   "status": "passed"
 });
 formatter.match({
@@ -134,42 +140,42 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
+  "location": "ArSteps.oArCondicionadoRetornaOValorDaAmbiente(int)"
 });
 formatter.result({
-  "duration": 2185250,
+  "duration": 9099409,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 11,
+  "line": 12,
   "name": "Calcular a temperatura ambiente externa.",
   "description": "",
   "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-positivas;3",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "os valores dos sensores X, Y, Z respectivamente 30,30,30",
   "matchedColumns": [
     0,
     1,
     2
   ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "realizo a media dos valores de cada sensor",
-  "keyword": "When "
+  "keyword": "Dado "
 });
 formatter.step({
   "line": 6,
+  "name": "realizo a media dos valores de cada sensor",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
   "name": "o ar condicionado retorna o valor da 30 ambiente",
   "matchedColumns": [
     3
   ],
-  "keyword": "Then "
+  "keyword": "Então "
 });
 formatter.match({
   "arguments": [
@@ -186,17 +192,17 @@ formatter.match({
       "offset": 54
     }
   ],
-  "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
+  "location": "ArSteps.osValoresDosSensoresXYZRespectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 247597,
+  "duration": 235033,
   "status": "passed"
 });
 formatter.match({
-  "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
+  "location": "ArSteps.realizoAMediaDosValoresDeCadaSensor()"
 });
 formatter.result({
-  "duration": 33528,
+  "duration": 32134,
   "status": "passed"
 });
 formatter.match({
@@ -206,14 +212,14 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
+  "location": "ArSteps.oArCondicionadoRetornaOValorDaAmbiente(int)"
 });
 formatter.result({
-  "duration": 114219,
+  "duration": 146721,
   "status": "passed"
 });
 formatter.examples({
-  "line": 13,
+  "line": 14,
   "name": "Temperaturas negativas",
   "description": "",
   "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-negativas",
@@ -225,7 +231,7 @@ formatter.examples({
         "valorZ",
         "temperatura"
       ],
-      "line": 14,
+      "line": 15,
       "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-negativas;1"
     },
     {
@@ -235,7 +241,7 @@ formatter.examples({
         "-1",
         "-1"
       ],
-      "line": 15,
+      "line": 16,
       "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-negativas;2"
     },
     {
@@ -245,42 +251,42 @@ formatter.examples({
         "-5",
         "-5"
       ],
-      "line": 16,
+      "line": 17,
       "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-negativas;3"
     }
   ],
-  "keyword": "Examples"
+  "keyword": "Exemplos"
 });
 formatter.scenario({
-  "line": 15,
+  "line": 16,
   "name": "Calcular a temperatura ambiente externa.",
   "description": "",
   "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-negativas;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "os valores dos sensores X, Y, Z respectivamente -1,-1,-1",
   "matchedColumns": [
     0,
     1,
     2
   ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "realizo a media dos valores de cada sensor",
-  "keyword": "When "
+  "keyword": "Dado "
 });
 formatter.step({
   "line": 6,
+  "name": "realizo a media dos valores de cada sensor",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
   "name": "o ar condicionado retorna o valor da -1 ambiente",
   "matchedColumns": [
     3
   ],
-  "keyword": "Then "
+  "keyword": "Então "
 });
 formatter.match({
   "arguments": [
@@ -297,17 +303,17 @@ formatter.match({
       "offset": 54
     }
   ],
-  "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
+  "location": "ArSteps.osValoresDosSensoresXYZRespectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 215934,
+  "duration": 244917,
   "status": "passed"
 });
 formatter.match({
-  "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
+  "location": "ArSteps.realizoAMediaDosValoresDeCadaSensor()"
 });
 formatter.result({
-  "duration": 31308,
+  "duration": 35879,
   "status": "passed"
 });
 formatter.match({
@@ -317,42 +323,42 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
+  "location": "ArSteps.oArCondicionadoRetornaOValorDaAmbiente(int)"
 });
 formatter.result({
-  "duration": 116348,
+  "duration": 720724,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 16,
+  "line": 17,
   "name": "Calcular a temperatura ambiente externa.",
   "description": "",
   "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-externa.;temperaturas-negativas;3",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "os valores dos sensores X, Y, Z respectivamente -5,-5,-5",
   "matchedColumns": [
     0,
     1,
     2
   ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "realizo a media dos valores de cada sensor",
-  "keyword": "When "
+  "keyword": "Dado "
 });
 formatter.step({
   "line": 6,
+  "name": "realizo a media dos valores de cada sensor",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
   "name": "o ar condicionado retorna o valor da -5 ambiente",
   "matchedColumns": [
     3
   ],
-  "keyword": "Then "
+  "keyword": "Então "
 });
 formatter.match({
   "arguments": [
@@ -369,17 +375,17 @@ formatter.match({
       "offset": 54
     }
   ],
-  "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
+  "location": "ArSteps.osValoresDosSensoresXYZRespectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 314021,
+  "duration": 217444,
   "status": "passed"
 });
 formatter.match({
-  "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
+  "location": "ArSteps.realizoAMediaDosValoresDeCadaSensor()"
 });
 formatter.result({
-  "duration": 49067,
+  "duration": 42182,
   "status": "passed"
 });
 formatter.match({
@@ -389,194 +395,154 @@ formatter.match({
       "offset": 37
     }
   ],
-  "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
+  "location": "ArSteps.oArCondicionadoRetornaOValorDaAmbiente(int)"
 });
 formatter.result({
-  "duration": 134508,
+  "duration": 114696,
   "status": "passed"
 });
-formatter.uri("features/imposto.feature");
-formatter.feature({
-  "comments": [
-    {
-      "line": 1,
-      "value": "#language: pt"
-    }
-  ],
-  "line": 2,
-  "name": "Calculo do imposto de renda de uma pessoa fisica.",
-  "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.",
-  "keyword": "Funcionalidade"
-});
 formatter.scenarioOutline({
-  "line": 4,
-  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "line": 20,
+  "name": "Calcular a temperatura ambiente interna.",
   "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.",
+  "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-interna.",
   "type": "scenario_outline",
   "keyword": "Esquema do Cenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "que recebo o salário bruto no valor de \u003cvalor_bruto\u003e",
+  "line": 21,
+  "name": "que possuem \u003cquantidadePessoas\u003e pessoas em uma sala de aula",
   "keyword": "Dado "
 });
 formatter.step({
-  "line": 6,
-  "name": "realizo o cálculo do imposto",
+  "line": 22,
+  "name": "os sensores \u003csensorX\u003e, \u003csensorY\u003e e \u003csensorZ\u003e identificam a quantidade de pessoas na sala",
   "keyword": "Quando "
 });
 formatter.step({
-  "line": 7,
-  "name": "o percentual da aliquota deverá ser \u003caliquota\u003e",
+  "line": 23,
+  "name": "o ar condicionado aumenta a \u003ctemperatura\u003e em 1 grau para cada pessoa identificada.",
   "keyword": "Então "
 });
-formatter.step({
-  "line": 8,
-  "name": "o valor do imposto caculado \u003cimposto\u003e",
-  "keyword": "E "
-});
 formatter.examples({
-  "line": 10,
-  "name": "",
+  "line": 25,
+  "name": "Quantidade de pessoas na sala",
   "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;",
+  "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-interna.;quantidade-de-pessoas-na-sala",
   "rows": [
     {
       "cells": [
-        "valor_bruto",
-        "aliquota",
-        "imposto"
+        "quantidadePessoas",
+        "sensorX",
+        "sensorY",
+        "sensorZ",
+        "temperatura"
       ],
-      "line": 12,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;1"
+      "line": 26,
+      "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-interna.;quantidade-de-pessoas-na-sala;1"
     },
     {
       "cells": [
-        "1710.78",
+        "0",
+        "0",
+        "0",
         "0",
         "0"
       ],
-      "line": 13,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;2"
+      "line": 27,
+      "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-interna.;quantidade-de-pessoas-na-sala;2"
     },
     {
       "cells": [
-        "1710.79",
-        "7.5",
-        "128.31"
-      ],
-      "line": 14,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;3"
-    },
-    {
-      "cells": [
-        "1800.79",
-        "7.5",
-        "135.06"
-      ],
-      "line": 15,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;4"
-    },
-    {
-      "cells": [
-        "2563.92",
         "15",
-        "384.59"
+        "15",
+        "15",
+        "15",
+        "15"
       ],
-      "line": 16,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;5"
+      "line": 28,
+      "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-interna.;quantidade-de-pessoas-na-sala;3"
     },
     {
       "cells": [
-        "3418.60",
-        "22.5",
-        "769.19"
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
       ],
-      "line": 17,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;6"
-    },
-    {
-      "cells": [
-        "4271.60",
-        "27.5",
-        "1174.69"
-      ],
-      "line": 18,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;7"
+      "line": 29,
+      "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-interna.;quantidade-de-pessoas-na-sala;4"
     }
   ],
   "keyword": "Exemplos"
 });
 formatter.scenario({
-  "line": 13,
-  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "line": 27,
+  "name": "Calcular a temperatura ambiente interna.",
   "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;2",
+  "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-interna.;quantidade-de-pessoas-na-sala;2",
   "type": "scenario",
   "keyword": "Esquema do Cenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "que recebo o salário bruto no valor de 1710.78",
+  "line": 21,
+  "name": "que possuem 0 pessoas em uma sala de aula",
   "matchedColumns": [
     0
   ],
   "keyword": "Dado "
 });
 formatter.step({
-  "line": 6,
-  "name": "realizo o cálculo do imposto",
+  "line": 22,
+  "name": "os sensores 0, 0 e 0 identificam a quantidade de pessoas na sala",
+  "matchedColumns": [
+    1,
+    2,
+    3
+  ],
   "keyword": "Quando "
 });
 formatter.step({
-  "line": 7,
-  "name": "o percentual da aliquota deverá ser 0",
+  "line": 23,
+  "name": "o ar condicionado aumenta a 0 em 1 grau para cada pessoa identificada.",
   "matchedColumns": [
-    1
+    4
   ],
   "keyword": "Então "
-});
-formatter.step({
-  "line": 8,
-  "name": "o valor do imposto caculado 0",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "E "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1710.78",
-      "offset": 39
+      "val": "0",
+      "offset": 12
     }
   ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+  "location": "ArSteps.quePossuemPessoasEmUmaSalaDeAula(int)"
 });
 formatter.result({
-  "duration": 6842168,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
-});
-formatter.result({
-  "duration": 59800,
+  "duration": 118105,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "0",
-      "offset": 36
+      "offset": 12
+    },
+    {
+      "val": "0",
+      "offset": 15
+    },
+    {
+      "val": "0",
+      "offset": 19
     }
   ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+  "location": "ArSteps.osSensoresEIdentificamAQuantidadeDePessoasNaSala(int,int,int)"
 });
 formatter.result({
-  "duration": 8426666,
+  "duration": 316311,
   "status": "passed"
 });
 formatter.match({
@@ -584,427 +550,186 @@ formatter.match({
     {
       "val": "0",
       "offset": 28
+    },
+    {
+      "val": "1",
+      "offset": 33
     }
   ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
+  "location": "ArSteps.oArCondicionadoAumentaAEmGrauParaCadaPessoaIdentificada(int,int)"
 });
 formatter.result({
-  "duration": 169123,
+  "duration": 4438513,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 14,
-  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "line": 28,
+  "name": "Calcular a temperatura ambiente interna.",
   "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;3",
+  "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-interna.;quantidade-de-pessoas-na-sala;3",
   "type": "scenario",
   "keyword": "Esquema do Cenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "que recebo o salário bruto no valor de 1710.79",
+  "line": 21,
+  "name": "que possuem 15 pessoas em uma sala de aula",
   "matchedColumns": [
     0
   ],
   "keyword": "Dado "
 });
 formatter.step({
-  "line": 6,
-  "name": "realizo o cálculo do imposto",
+  "line": 22,
+  "name": "os sensores 15, 15 e 15 identificam a quantidade de pessoas na sala",
+  "matchedColumns": [
+    1,
+    2,
+    3
+  ],
   "keyword": "Quando "
 });
 formatter.step({
-  "line": 7,
-  "name": "o percentual da aliquota deverá ser 7.5",
+  "line": 23,
+  "name": "o ar condicionado aumenta a 15 em 1 grau para cada pessoa identificada.",
   "matchedColumns": [
-    1
+    4
   ],
   "keyword": "Então "
 });
-formatter.step({
-  "line": 8,
-  "name": "o valor do imposto caculado 128.31",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "E "
-});
 formatter.match({
   "arguments": [
     {
-      "val": "1710.79",
-      "offset": 39
+      "val": "15",
+      "offset": 12
     }
   ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+  "location": "ArSteps.quePossuemPessoasEmUmaSalaDeAula(int)"
 });
 formatter.result({
-  "duration": 167757,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
-});
-formatter.result({
-  "duration": 71551,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "7.5",
-      "offset": 36
-    }
-  ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
-});
-formatter.result({
-  "duration": 303696,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "128.31",
-      "offset": 28
-    }
-  ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
-});
-formatter.result({
-  "duration": 198547,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 15,
-  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
-  "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;4",
-  "type": "scenario",
-  "keyword": "Esquema do Cenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "que recebo o salário bruto no valor de 1800.79",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 6,
-  "name": "realizo o cálculo do imposto",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 7,
-  "name": "o percentual da aliquota deverá ser 7.5",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Então "
-});
-formatter.step({
-  "line": 8,
-  "name": "o valor do imposto caculado 135.06",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "E "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "1800.79",
-      "offset": 39
-    }
-  ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
-});
-formatter.result({
-  "duration": 124936,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
-});
-formatter.result({
-  "duration": 29229,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "7.5",
-      "offset": 36
-    }
-  ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
-});
-formatter.result({
-  "duration": 90314,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "135.06",
-      "offset": 28
-    }
-  ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
-});
-formatter.result({
-  "duration": 95816,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 16,
-  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
-  "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;5",
-  "type": "scenario",
-  "keyword": "Esquema do Cenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "que recebo o salário bruto no valor de 2563.92",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 6,
-  "name": "realizo o cálculo do imposto",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 7,
-  "name": "o percentual da aliquota deverá ser 15",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Então "
-});
-formatter.step({
-  "line": 8,
-  "name": "o valor do imposto caculado 384.59",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "E "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2563.92",
-      "offset": 39
-    }
-  ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
-});
-formatter.result({
-  "duration": 135841,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
-});
-formatter.result({
-  "duration": 71640,
+  "duration": 182594,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "15",
-      "offset": 36
+      "offset": 12
+    },
+    {
+      "val": "15",
+      "offset": 16
+    },
+    {
+      "val": "15",
+      "offset": 21
     }
   ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+  "location": "ArSteps.osSensoresEIdentificamAQuantidadeDePessoasNaSala(int,int,int)"
 });
 formatter.result({
-  "duration": 92190,
+  "duration": 221712,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "384.59",
+      "val": "15",
       "offset": 28
+    },
+    {
+      "val": "1",
+      "offset": 34
     }
   ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
+  "location": "ArSteps.oArCondicionadoAumentaAEmGrauParaCadaPessoaIdentificada(int,int)"
 });
 formatter.result({
-  "duration": 120239,
+  "duration": 164882,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 17,
-  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "line": 29,
+  "name": "Calcular a temperatura ambiente interna.",
   "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;6",
+  "id": "controlar-a-temparatura-interna-da-sala-de-aula.;calcular-a-temperatura-ambiente-interna.;quantidade-de-pessoas-na-sala;4",
   "type": "scenario",
   "keyword": "Esquema do Cenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "que recebo o salário bruto no valor de 3418.60",
+  "line": 21,
+  "name": "que possuem 30 pessoas em uma sala de aula",
   "matchedColumns": [
     0
   ],
   "keyword": "Dado "
 });
 formatter.step({
-  "line": 6,
-  "name": "realizo o cálculo do imposto",
+  "line": 22,
+  "name": "os sensores 30, 30 e 30 identificam a quantidade de pessoas na sala",
+  "matchedColumns": [
+    1,
+    2,
+    3
+  ],
   "keyword": "Quando "
 });
 formatter.step({
-  "line": 7,
-  "name": "o percentual da aliquota deverá ser 22.5",
+  "line": 23,
+  "name": "o ar condicionado aumenta a 30 em 1 grau para cada pessoa identificada.",
   "matchedColumns": [
-    1
+    4
   ],
   "keyword": "Então "
 });
-formatter.step({
-  "line": 8,
-  "name": "o valor do imposto caculado 769.19",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "E "
-});
 formatter.match({
   "arguments": [
     {
-      "val": "3418.60",
-      "offset": 39
+      "val": "30",
+      "offset": 12
     }
   ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+  "location": "ArSteps.quePossuemPessoasEmUmaSalaDeAula(int)"
 });
 formatter.result({
-  "duration": 208478,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
-});
-formatter.result({
-  "duration": 50844,
+  "duration": 145150,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "22.5",
-      "offset": 36
+      "val": "30",
+      "offset": 12
+    },
+    {
+      "val": "30",
+      "offset": 16
+    },
+    {
+      "val": "30",
+      "offset": 21
     }
   ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+  "location": "ArSteps.osSensoresEIdentificamAQuantidadeDePessoasNaSala(int,int,int)"
 });
 formatter.result({
-  "duration": 175717,
+  "duration": 193595,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "769.19",
+      "val": "30",
       "offset": 28
-    }
-  ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
-});
-formatter.result({
-  "duration": 91620,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 18,
-  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
-  "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;7",
-  "type": "scenario",
-  "keyword": "Esquema do Cenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "que recebo o salário bruto no valor de 4271.60",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 6,
-  "name": "realizo o cálculo do imposto",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 7,
-  "name": "o percentual da aliquota deverá ser 27.5",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Então "
-});
-formatter.step({
-  "line": 8,
-  "name": "o valor do imposto caculado 1174.69",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "E "
-});
-formatter.match({
-  "arguments": [
+    },
     {
-      "val": "4271.60",
-      "offset": 39
+      "val": "1",
+      "offset": 34
     }
   ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+  "location": "ArSteps.oArCondicionadoAumentaAEmGrauParaCadaPessoaIdentificada(int,int)"
 });
 formatter.result({
-  "duration": 131996,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
-});
-formatter.result({
-  "duration": 67824,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "27.5",
-      "offset": 36
-    }
-  ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
-});
-formatter.result({
-  "duration": 201408,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "1174.69",
-      "offset": 28
-    }
-  ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
-});
-formatter.result({
-  "duration": 106451,
+  "duration": 156835,
   "status": "passed"
 });
 });

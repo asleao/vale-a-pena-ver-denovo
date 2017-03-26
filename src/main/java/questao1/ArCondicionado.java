@@ -6,6 +6,15 @@ package questao1;
 public class ArCondicionado {
 
     private int temperaturaExterna;
+    private int temperaturaInterna;
+
+    public int getTemperaturaInterna() {
+        return temperaturaInterna;
+    }
+
+    public void setTemperaturaInterna(int temperaturaInterna) {
+        this.temperaturaInterna = temperaturaInterna;
+    }
 
     public void setTemperaturaExterna(int temperaturaExterna) {
         this.temperaturaExterna = temperaturaExterna;
@@ -15,8 +24,8 @@ public class ArCondicionado {
         return this.temperaturaExterna;
     }
 
-    public void calculaMedia(SensorTemperatura sensor1, SensorTemperatura sensor2, SensorTemperatura sensor3) {
-        int media = (sensor1.getTemperatura()+sensor2.getTemperatura()+sensor3.getTemperatura())/3;
-        setTemperaturaExterna(media);
+    public int calculaMedia(int sensor1, int sensor2, int sensor3) {
+        int media = (sensor1+sensor2+sensor3)/3;
+        return media;
     }
 }
