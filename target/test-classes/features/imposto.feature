@@ -1,10 +1,11 @@
 #language: pt
-Funcionalidade: Calculo de imposto de renda de uma pessoa fisica.
+Funcionalidade: Calculo do imposto de renda de uma pessoa fisica.
 
-  Esquema do Cenario: Testar se os valores de aliquota estao de acordo com o valor bruto.
-                Dado possuo o <valor_bruto> e uma <aliquota>
-              Quando aplico o percentual da <aliquota> no <valor_bruto>
-               Então retorno o valor do <imposto> calculado
+  Esquema do Cenario: Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.
+                Dado que recebo o salário bruto no valor de <valor_bruto>
+              Quando realizo o cálculo do imposto
+               Então o percentual da aliquota deverá ser <aliquota>
+                   E o valor do imposto caculado <imposto>
 
     Exemplos:
 
