@@ -117,14 +117,14 @@ formatter.match({
   "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 130632375,
+  "duration": 226990480,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
 });
 formatter.result({
-  "duration": 48463,
+  "duration": 62078,
   "status": "passed"
 });
 formatter.match({
@@ -137,7 +137,7 @@ formatter.match({
   "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
 });
 formatter.result({
-  "duration": 1597109,
+  "duration": 2185250,
   "status": "passed"
 });
 formatter.scenario({
@@ -189,14 +189,14 @@ formatter.match({
   "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 249439,
+  "duration": 247597,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
 });
 formatter.result({
-  "duration": 30722,
+  "duration": 33528,
   "status": "passed"
 });
 formatter.match({
@@ -209,7 +209,7 @@ formatter.match({
   "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
 });
 formatter.result({
-  "duration": 109130,
+  "duration": 114219,
   "status": "passed"
 });
 formatter.examples({
@@ -300,14 +300,14 @@ formatter.match({
   "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 204668,
+  "duration": 215934,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
 });
 formatter.result({
-  "duration": 27700,
+  "duration": 31308,
   "status": "passed"
 });
 formatter.match({
@@ -320,7 +320,7 @@ formatter.match({
   "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
 });
 formatter.result({
-  "duration": 112637,
+  "duration": 116348,
   "status": "passed"
 });
 formatter.scenario({
@@ -372,14 +372,14 @@ formatter.match({
   "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 151234,
+  "duration": 314021,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
 });
 formatter.result({
-  "duration": 29394,
+  "duration": 49067,
   "status": "passed"
 });
 formatter.match({
@@ -392,7 +392,7 @@ formatter.match({
   "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
 });
 formatter.result({
-  "duration": 105704,
+  "duration": 134508,
   "status": "passed"
 });
 formatter.uri("features/imposto.feature");
@@ -472,12 +472,21 @@ formatter.examples({
     },
     {
       "cells": [
+        "1800.79",
+        "7.5",
+        "135.06"
+      ],
+      "line": 15,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;4"
+    },
+    {
+      "cells": [
         "2563.92",
         "15",
         "384.59"
       ],
-      "line": 15,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;4"
+      "line": 16,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;5"
     },
     {
       "cells": [
@@ -485,8 +494,8 @@ formatter.examples({
         "22.5",
         "769.19"
       ],
-      "line": 16,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;5"
+      "line": 17,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;6"
     },
     {
       "cells": [
@@ -494,8 +503,8 @@ formatter.examples({
         "27.5",
         "1174.69"
       ],
-      "line": 17,
-      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;6"
+      "line": 18,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;7"
     }
   ],
   "keyword": "Exemplos"
@@ -547,14 +556,14 @@ formatter.match({
   "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 4195379,
+  "duration": 6842168,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 66010,
+  "duration": 59800,
   "status": "passed"
 });
 formatter.match({
@@ -567,7 +576,7 @@ formatter.match({
   "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "duration": 2257978,
+  "duration": 8426666,
   "status": "passed"
 });
 formatter.match({
@@ -580,7 +589,7 @@ formatter.match({
   "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "duration": 123539,
+  "duration": 169123,
   "status": "passed"
 });
 formatter.scenario({
@@ -630,14 +639,14 @@ formatter.match({
   "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 145084,
+  "duration": 167757,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 83441,
+  "duration": 71551,
   "status": "passed"
 });
 formatter.match({
@@ -650,7 +659,7 @@ formatter.match({
   "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "duration": 98560,
+  "duration": 303696,
   "status": "passed"
 });
 formatter.match({
@@ -663,7 +672,7 @@ formatter.match({
   "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "duration": 89452,
+  "duration": 198547,
   "status": "passed"
 });
 formatter.scenario({
@@ -671,6 +680,89 @@ formatter.scenario({
   "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
   "description": "",
   "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;4",
+  "type": "scenario",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo o salário bruto no valor de 1800.79",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo do imposto",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o percentual da aliquota deverá ser 7.5",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 8,
+  "name": "o valor do imposto caculado 135.06",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "E "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1800.79",
+      "offset": 39
+    }
+  ],
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+});
+formatter.result({
+  "duration": 124936,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
+});
+formatter.result({
+  "duration": 29229,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "7.5",
+      "offset": 36
+    }
+  ],
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+});
+formatter.result({
+  "duration": 90314,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "135.06",
+      "offset": 28
+    }
+  ],
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
+});
+formatter.result({
+  "duration": 95816,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;5",
   "type": "scenario",
   "keyword": "Esquema do Cenario"
 });
@@ -713,14 +805,14 @@ formatter.match({
   "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 103875,
+  "duration": 135841,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 31645,
+  "duration": 71640,
   "status": "passed"
 });
 formatter.match({
@@ -733,7 +825,7 @@ formatter.match({
   "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "duration": 80063,
+  "duration": 92190,
   "status": "passed"
 });
 formatter.match({
@@ -746,14 +838,14 @@ formatter.match({
   "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "duration": 84113,
+  "duration": 120239,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 16,
+  "line": 17,
   "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
   "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;5",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;6",
   "type": "scenario",
   "keyword": "Esquema do Cenario"
 });
@@ -796,14 +888,14 @@ formatter.match({
   "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 107402,
+  "duration": 208478,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 24821,
+  "duration": 50844,
   "status": "passed"
 });
 formatter.match({
@@ -816,7 +908,7 @@ formatter.match({
   "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "duration": 82373,
+  "duration": 175717,
   "status": "passed"
 });
 formatter.match({
@@ -829,14 +921,14 @@ formatter.match({
   "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "duration": 129992,
+  "duration": 91620,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 17,
+  "line": 18,
   "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
   "description": "",
-  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;6",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;7",
   "type": "scenario",
   "keyword": "Esquema do Cenario"
 });
@@ -879,14 +971,14 @@ formatter.match({
   "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 238385,
+  "duration": 131996,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 43003,
+  "duration": 67824,
   "status": "passed"
 });
 formatter.match({
@@ -899,7 +991,7 @@ formatter.match({
   "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "duration": 244355,
+  "duration": 201408,
   "status": "passed"
 });
 formatter.match({
@@ -912,7 +1004,7 @@ formatter.match({
   "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "duration": 592965,
+  "duration": 106451,
   "status": "passed"
 });
 });

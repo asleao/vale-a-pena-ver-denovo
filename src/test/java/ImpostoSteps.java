@@ -13,11 +13,12 @@ public class ImpostoSteps {
 
     private double valorBruto;
     private double impostoCalculado;
-    private Receita receita = new Receita();
+    private Receita receita;
 
     @Dado("^que recebo o salário bruto no valor de ([+-]?[0-9]*[.]?[0-9]+)$")
     public void queReceboOSalárioBrutoNoValorDe(String valorBruto) throws Throwable {
         this.valorBruto = Double.parseDouble(valorBruto);
+        this.receita = new Receita(this.valorBruto);
     }
 
     @Quando("^realizo o cálculo do imposto$")
@@ -27,7 +28,7 @@ public class ImpostoSteps {
 
     @Então("^o percentual da aliquota deverá ser ([+-]?[0-9]*[.]?[0-9]+)$")
     public void oPercentualDaAliquotaDeveráSer(String aliquota) throws Throwable {
-        assertEquals(Double.parseDouble(aliquota),receita.getAliquota(this.valorBruto));
+        assertEquals(Double.parseDouble(aliquota),receita.getAliquota());
     }
 
     @Então("^o valor do imposto caculado ([+-]?[0-9]*[.]?[0-9]+)$")

@@ -5,33 +5,37 @@ package questao2;
  */
 public class Receita {
     private double imposto;
-    public double calculaImposto(double valorBruto) {
-        this.imposto = valorBruto*(getAliquota(valorBruto)/100);
-        return Math.round(this.imposto*100.0)/100.0;
-    }
+    private ImpostoStrategy estrategiaImposto;
 
-    public double getAliquota(double valorBruto) {
-        double aliquota=0;
+    public Receita(double valorBruto){
         if(valorBruto<1710.79)
-            aliquota=0;
+            estrategiaImposto = new Faixa1();
         else {
             if((valorBruto>=1710.79) && (valorBruto<2563.92)){
-                aliquota=7.5;
+                estrategiaImposto = new Faixa2();
             }else {
                 if ((valorBruto>=2563.92) && (valorBruto<=3418.59)){
-                    aliquota= 15;
+                    estrategiaImposto = new Faixa3();
                 }
                 else {
                     if ((valorBruto>=3418.60) && (valorBruto<4271.59)){
-                        aliquota= 22.5;
+                        estrategiaImposto = new Faixa4();
                     } else {
                         if (valorBruto>=4271.59){
-                            aliquota= 27.5;
+                            estrategiaImposto = new Faixa5();
                         }
                     }
                 }
             }
         }
-        return aliquota;
+
+
+    }
+    public double calculaImposto(double valorBruto) {
+        return estrategiaImposto.calculaImposto(valorBruto);
+    }
+
+    public double getAliquota() {
+        return estrategiaImposto.getAliquota();
     }
 }
