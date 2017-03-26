@@ -117,14 +117,14 @@ formatter.match({
   "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 152417754,
+  "duration": 130632375,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
 });
 formatter.result({
-  "duration": 60271,
+  "duration": 48463,
   "status": "passed"
 });
 formatter.match({
@@ -137,7 +137,7 @@ formatter.match({
   "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
 });
 formatter.result({
-  "duration": 1971102,
+  "duration": 1597109,
   "status": "passed"
 });
 formatter.scenario({
@@ -189,14 +189,14 @@ formatter.match({
   "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 255302,
+  "duration": 249439,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
 });
 formatter.result({
-  "duration": 28751,
+  "duration": 30722,
   "status": "passed"
 });
 formatter.match({
@@ -209,7 +209,7 @@ formatter.match({
   "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
 });
 formatter.result({
-  "duration": 109095,
+  "duration": 109130,
   "status": "passed"
 });
 formatter.examples({
@@ -300,14 +300,14 @@ formatter.match({
   "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 194695,
+  "duration": 204668,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
 });
 formatter.result({
-  "duration": 33125,
+  "duration": 27700,
   "status": "passed"
 });
 formatter.match({
@@ -320,7 +320,7 @@ formatter.match({
   "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
 });
 formatter.result({
-  "duration": 109486,
+  "duration": 112637,
   "status": "passed"
 });
 formatter.scenario({
@@ -372,14 +372,14 @@ formatter.match({
   "location": "ArSteps.os_valores_dos_sensores_X_Y_Z_respectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 197705,
+  "duration": 151234,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizo_a_media_dos_valores_de_cada_sensor()"
 });
 formatter.result({
-  "duration": 36584,
+  "duration": 29394,
   "status": "passed"
 });
 formatter.match({
@@ -392,7 +392,7 @@ formatter.match({
   "location": "ArSteps.o_ar_condicionado_retorna_o_valor_da_ambiente(int)"
 });
 formatter.result({
-  "duration": 115625,
+  "duration": 105704,
   "status": "passed"
 });
 formatter.uri("features/imposto.feature");
@@ -465,7 +465,7 @@ formatter.examples({
       "cells": [
         "1710.79",
         "7.5",
-        "1283.09"
+        "128.31"
       ],
       "line": 14,
       "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;3"
@@ -474,7 +474,7 @@ formatter.examples({
       "cells": [
         "2563.92",
         "15",
-        "384.58"
+        "384.59"
       ],
       "line": 15,
       "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;4"
@@ -483,7 +483,7 @@ formatter.examples({
       "cells": [
         "3418.60",
         "22.5",
-        "769.18"
+        "769.19"
       ],
       "line": 16,
       "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;5"
@@ -544,19 +544,18 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(double)"
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 5105433,
+  "duration": 4195379,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 1860517,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat ImpostoSteps.realizoOCálculoDoImposto(ImpostoSteps.java:27)\n\tat ✽.Quando realizo o cálculo do imposto(features/imposto.feature:6)\n",
-  "status": "pending"
+  "duration": 66010,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -565,10 +564,11 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(int)"
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2257978,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -577,10 +577,11 @@ formatter.match({
       "offset": 28
     }
   ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(int)"
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 123539,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 14,
@@ -613,7 +614,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "o valor do imposto caculado 1283.09",
+  "name": "o valor do imposto caculado 128.31",
   "matchedColumns": [
     2
   ],
@@ -626,19 +627,18 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(double)"
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 140906,
+  "duration": 145084,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 239040,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat ImpostoSteps.realizoOCálculoDoImposto(ImpostoSteps.java:27)\n\tat ✽.Quando realizo o cálculo do imposto(features/imposto.feature:6)\n",
-  "status": "pending"
+  "duration": 83441,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -647,22 +647,24 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(int)"
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 98560,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1283.09",
+      "val": "128.31",
       "offset": 28
     }
   ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(int)"
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89452,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 15,
@@ -695,7 +697,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "o valor do imposto caculado 384.58",
+  "name": "o valor do imposto caculado 384.59",
   "matchedColumns": [
     2
   ],
@@ -708,19 +710,18 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(double)"
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 168277,
+  "duration": 103875,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 251905,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat ImpostoSteps.realizoOCálculoDoImposto(ImpostoSteps.java:27)\n\tat ✽.Quando realizo o cálculo do imposto(features/imposto.feature:6)\n",
-  "status": "pending"
+  "duration": 31645,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -729,22 +730,24 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(int)"
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 80063,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "384.58",
+      "val": "384.59",
       "offset": 28
     }
   ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(int)"
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 84113,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 16,
@@ -777,7 +780,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "o valor do imposto caculado 769.18",
+  "name": "o valor do imposto caculado 769.19",
   "matchedColumns": [
     2
   ],
@@ -790,19 +793,18 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(double)"
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 180780,
+  "duration": 107402,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 297273,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat ImpostoSteps.realizoOCálculoDoImposto(ImpostoSteps.java:27)\n\tat ✽.Quando realizo o cálculo do imposto(features/imposto.feature:6)\n",
-  "status": "pending"
+  "duration": 24821,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -811,22 +813,24 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(int)"
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 82373,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "769.18",
+      "val": "769.19",
       "offset": 28
     }
   ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(int)"
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 129992,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 17,
@@ -872,19 +876,18 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(double)"
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
 });
 formatter.result({
-  "duration": 136761,
+  "duration": 238385,
   "status": "passed"
 });
 formatter.match({
   "location": "ImpostoSteps.realizoOCálculoDoImposto()"
 });
 formatter.result({
-  "duration": 243647,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat ImpostoSteps.realizoOCálculoDoImposto(ImpostoSteps.java:27)\n\tat ✽.Quando realizo o cálculo do imposto(features/imposto.feature:6)\n",
-  "status": "pending"
+  "duration": 43003,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -893,10 +896,11 @@ formatter.match({
       "offset": 36
     }
   ],
-  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(int)"
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 244355,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -905,9 +909,10 @@ formatter.match({
       "offset": 28
     }
   ],
-  "location": "ImpostoSteps.oValorDoImpostoCaculado(int)"
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 592965,
+  "status": "passed"
 });
 });

@@ -10,8 +10,8 @@ Funcionalidade: Calculo do imposto de renda de uma pessoa fisica.
     Exemplos:
 
     | valor_bruto | aliquota | imposto |
-    |  1710.78    |    0     |  0      |
-    |  1710.79    |   7.5    | 1283.09 |
-    |  2563.92    |   15     | 384.58  |
-    |  3418.60    |   22.5   | 769.18  |
+    |  1710.78    |    0     |    0    |
+    |  1710.79    |   7.5    | 128.31  |
+    |  2563.92    |   15     | 384.59  |
+    |  3418.60    |   22.5   | 769.19  |
     |  4271.60    |   27.5   | 1174.69 |
