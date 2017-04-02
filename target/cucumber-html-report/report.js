@@ -123,14 +123,14 @@ formatter.match({
   "location": "ArSteps.osValoresDosSensoresXYZRespectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 212159926,
+  "duration": 201796850,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizoAMediaDosValoresDeCadaSensor()"
 });
 formatter.result({
-  "duration": 61140,
+  "duration": 76552,
   "status": "passed"
 });
 formatter.match({
@@ -143,7 +143,7 @@ formatter.match({
   "location": "ArSteps.oArCondicionadoRetornaOValorDaAmbiente(int)"
 });
 formatter.result({
-  "duration": 9099409,
+  "duration": 2839907,
   "status": "passed"
 });
 formatter.scenario({
@@ -195,14 +195,14 @@ formatter.match({
   "location": "ArSteps.osValoresDosSensoresXYZRespectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 235033,
+  "duration": 387272,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizoAMediaDosValoresDeCadaSensor()"
 });
 formatter.result({
-  "duration": 32134,
+  "duration": 51127,
   "status": "passed"
 });
 formatter.match({
@@ -215,7 +215,7 @@ formatter.match({
   "location": "ArSteps.oArCondicionadoRetornaOValorDaAmbiente(int)"
 });
 formatter.result({
-  "duration": 146721,
+  "duration": 329272,
   "status": "passed"
 });
 formatter.examples({
@@ -306,14 +306,14 @@ formatter.match({
   "location": "ArSteps.osValoresDosSensoresXYZRespectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 244917,
+  "duration": 226376,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizoAMediaDosValoresDeCadaSensor()"
 });
 formatter.result({
-  "duration": 35879,
+  "duration": 30927,
   "status": "passed"
 });
 formatter.match({
@@ -326,7 +326,7 @@ formatter.match({
   "location": "ArSteps.oArCondicionadoRetornaOValorDaAmbiente(int)"
 });
 formatter.result({
-  "duration": 720724,
+  "duration": 147487,
   "status": "passed"
 });
 formatter.scenario({
@@ -378,14 +378,14 @@ formatter.match({
   "location": "ArSteps.osValoresDosSensoresXYZRespectivamente(int,int,int)"
 });
 formatter.result({
-  "duration": 217444,
+  "duration": 839148,
   "status": "passed"
 });
 formatter.match({
   "location": "ArSteps.realizoAMediaDosValoresDeCadaSensor()"
 });
 formatter.result({
-  "duration": 42182,
+  "duration": 28371,
   "status": "passed"
 });
 formatter.match({
@@ -398,7 +398,7 @@ formatter.match({
   "location": "ArSteps.oArCondicionadoRetornaOValorDaAmbiente(int)"
 });
 formatter.result({
-  "duration": 114696,
+  "duration": 99175,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -521,7 +521,7 @@ formatter.match({
   "location": "ArSteps.quePossuemPessoasEmUmaSalaDeAula(int)"
 });
 formatter.result({
-  "duration": 118105,
+  "duration": 153088,
   "status": "passed"
 });
 formatter.match({
@@ -542,7 +542,7 @@ formatter.match({
   "location": "ArSteps.osSensoresEIdentificamAQuantidadeDePessoasNaSala(int,int,int)"
 });
 formatter.result({
-  "duration": 316311,
+  "duration": 207707,
   "status": "passed"
 });
 formatter.match({
@@ -559,7 +559,7 @@ formatter.match({
   "location": "ArSteps.oArCondicionadoAumentaAEmGrauParaCadaPessoaIdentificada(int,int)"
 });
 formatter.result({
-  "duration": 4438513,
+  "duration": 2495445,
   "status": "passed"
 });
 formatter.scenario({
@@ -606,7 +606,7 @@ formatter.match({
   "location": "ArSteps.quePossuemPessoasEmUmaSalaDeAula(int)"
 });
 formatter.result({
-  "duration": 182594,
+  "duration": 139248,
   "status": "passed"
 });
 formatter.match({
@@ -627,7 +627,7 @@ formatter.match({
   "location": "ArSteps.osSensoresEIdentificamAQuantidadeDePessoasNaSala(int,int,int)"
 });
 formatter.result({
-  "duration": 221712,
+  "duration": 179592,
   "status": "passed"
 });
 formatter.match({
@@ -644,7 +644,7 @@ formatter.match({
   "location": "ArSteps.oArCondicionadoAumentaAEmGrauParaCadaPessoaIdentificada(int,int)"
 });
 formatter.result({
-  "duration": 164882,
+  "duration": 173117,
   "status": "passed"
 });
 formatter.scenario({
@@ -691,7 +691,7 @@ formatter.match({
   "location": "ArSteps.quePossuemPessoasEmUmaSalaDeAula(int)"
 });
 formatter.result({
-  "duration": 145150,
+  "duration": 2965790,
   "status": "passed"
 });
 formatter.match({
@@ -712,7 +712,7 @@ formatter.match({
   "location": "ArSteps.osSensoresEIdentificamAQuantidadeDePessoasNaSala(int,int,int)"
 });
 formatter.result({
-  "duration": 193595,
+  "duration": 177983,
   "status": "passed"
 });
 formatter.match({
@@ -729,7 +729,743 @@ formatter.match({
   "location": "ArSteps.oArCondicionadoAumentaAEmGrauParaCadaPessoaIdentificada(int,int)"
 });
 formatter.result({
-  "duration": 156835,
+  "duration": 155852,
+  "status": "passed"
+});
+formatter.uri("features/calculadora.feature");
+formatter.feature({
+  "comments": [
+    {
+      "line": 1,
+      "value": "#language: pt"
+    }
+  ],
+  "line": 2,
+  "name": "Contas com a notação de uma Calculadora Polonesa.",
+  "description": "",
+  "id": "contas-com-a-notação-de-uma-calculadora-polonesa.",
+  "keyword": "Funcionalidade"
+});
+formatter.scenarioOutline({
+  "line": 4,
+  "name": "Calcular expressões.",
+  "description": "",
+  "id": "contas-com-a-notação-de-uma-calculadora-polonesa.;calcular-expressões.",
+  "type": "scenario_outline",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo uma sequencia de \u003coperações\u003e a serem feitas",
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o \u003cresultado\u003e deverá ser exibido para o usuário.",
+  "keyword": "Então "
+});
+formatter.examples({
+  "line": 10,
+  "name": "",
+  "description": "",
+  "id": "contas-com-a-notação-de-uma-calculadora-polonesa.;calcular-expressões.;",
+  "rows": [
+    {
+      "cells": [
+        "operações",
+        "resultado"
+      ],
+      "line": 12,
+      "id": "contas-com-a-notação-de-uma-calculadora-polonesa.;calcular-expressões.;;1"
+    },
+    {
+      "cells": [
+        "5 1 2 + 4 * + 3 -",
+        "14.0"
+      ],
+      "line": 13,
+      "id": "contas-com-a-notação-de-uma-calculadora-polonesa.;calcular-expressões.;;2"
+    }
+  ],
+  "keyword": "Exemplos"
+});
+formatter.scenario({
+  "line": 13,
+  "name": "Calcular expressões.",
+  "description": "",
+  "id": "contas-com-a-notação-de-uma-calculadora-polonesa.;calcular-expressões.;;2",
+  "type": "scenario",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo uma sequencia de 5 1 2 + 4 * + 3 - a serem feitas",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o 14.0 deverá ser exibido para o usuário.",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Então "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "5 1 2 + 4 * + 3 -",
+      "offset": 28
+    }
+  ],
+  "location": "CalculadoraSteps.queReceboUmaSequenciaDeASeremFeitas(String)"
+});
+formatter.result({
+  "duration": 2218349,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CalculadoraSteps.realizoOCálculo()"
+});
+formatter.result({
+  "duration": 854404,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "14.0",
+      "offset": 2
+    }
+  ],
+  "location": "CalculadoraSteps.oDeveráSerExibidoParaOUsuário(String)"
+});
+formatter.result({
+  "duration": 222367,
+  "status": "passed"
+});
+formatter.uri("features/imposto.feature");
+formatter.feature({
+  "comments": [
+    {
+      "line": 1,
+      "value": "#language: pt"
+    }
+  ],
+  "line": 2,
+  "name": "Calculo do imposto de renda de uma pessoa fisica.",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.",
+  "keyword": "Funcionalidade"
+});
+formatter.scenarioOutline({
+  "line": 4,
+  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.",
+  "type": "scenario_outline",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo o salário bruto no valor de \u003cvalor_bruto\u003e",
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo do imposto",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o percentual da aliquota deverá ser \u003caliquota\u003e",
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 8,
+  "name": "o valor do imposto caculado \u003cimposto\u003e",
+  "keyword": "E "
+});
+formatter.examples({
+  "line": 10,
+  "name": "",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;",
+  "rows": [
+    {
+      "cells": [
+        "valor_bruto",
+        "aliquota",
+        "imposto"
+      ],
+      "line": 12,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;1"
+    },
+    {
+      "cells": [
+        "1710.78",
+        "0",
+        "0"
+      ],
+      "line": 13,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;2"
+    },
+    {
+      "cells": [
+        "1710.79",
+        "7.5",
+        "128.31"
+      ],
+      "line": 14,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;3"
+    },
+    {
+      "cells": [
+        "1800.79",
+        "7.5",
+        "135.06"
+      ],
+      "line": 15,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;4"
+    },
+    {
+      "cells": [
+        "2563.92",
+        "15",
+        "384.59"
+      ],
+      "line": 16,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;5"
+    },
+    {
+      "cells": [
+        "3418.60",
+        "22.5",
+        "769.19"
+      ],
+      "line": 17,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;6"
+    },
+    {
+      "cells": [
+        "4271.60",
+        "27.5",
+        "1174.69"
+      ],
+      "line": 18,
+      "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;7"
+    }
+  ],
+  "keyword": "Exemplos"
+});
+formatter.scenario({
+  "line": 13,
+  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;2",
+  "type": "scenario",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo o salário bruto no valor de 1710.78",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo do imposto",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o percentual da aliquota deverá ser 0",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 8,
+  "name": "o valor do imposto caculado 0",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "E "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1710.78",
+      "offset": 39
+    }
+  ],
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+});
+formatter.result({
+  "duration": 249110,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
+});
+formatter.result({
+  "duration": 57565,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "0",
+      "offset": 36
+    }
+  ],
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+});
+formatter.result({
+  "duration": 128454,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "0",
+      "offset": 28
+    }
+  ],
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
+});
+formatter.result({
+  "duration": 129781,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;3",
+  "type": "scenario",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo o salário bruto no valor de 1710.79",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo do imposto",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o percentual da aliquota deverá ser 7.5",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 8,
+  "name": "o valor do imposto caculado 128.31",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "E "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1710.79",
+      "offset": 39
+    }
+  ],
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+});
+formatter.result({
+  "duration": 142324,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
+});
+formatter.result({
+  "duration": 62159,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "7.5",
+      "offset": 36
+    }
+  ],
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+});
+formatter.result({
+  "duration": 127984,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "128.31",
+      "offset": 28
+    }
+  ],
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
+});
+formatter.result({
+  "duration": 83865,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;4",
+  "type": "scenario",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo o salário bruto no valor de 1800.79",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo do imposto",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o percentual da aliquota deverá ser 7.5",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 8,
+  "name": "o valor do imposto caculado 135.06",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "E "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1800.79",
+      "offset": 39
+    }
+  ],
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+});
+formatter.result({
+  "duration": 163891,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
+});
+formatter.result({
+  "duration": 40712,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "7.5",
+      "offset": 36
+    }
+  ],
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+});
+formatter.result({
+  "duration": 88967,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "135.06",
+      "offset": 28
+    }
+  ],
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
+});
+formatter.result({
+  "duration": 93565,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;5",
+  "type": "scenario",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo o salário bruto no valor de 2563.92",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo do imposto",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o percentual da aliquota deverá ser 15",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 8,
+  "name": "o valor do imposto caculado 384.59",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "E "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2563.92",
+      "offset": 39
+    }
+  ],
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+});
+formatter.result({
+  "duration": 151745,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
+});
+formatter.result({
+  "duration": 50484,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "15",
+      "offset": 36
+    }
+  ],
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+});
+formatter.result({
+  "duration": 93055,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "384.59",
+      "offset": 28
+    }
+  ],
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
+});
+formatter.result({
+  "duration": 134026,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;6",
+  "type": "scenario",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo o salário bruto no valor de 3418.60",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo do imposto",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o percentual da aliquota deverá ser 22.5",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 8,
+  "name": "o valor do imposto caculado 769.19",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "E "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "3418.60",
+      "offset": 39
+    }
+  ],
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+});
+formatter.result({
+  "duration": 132431,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
+});
+formatter.result({
+  "duration": 55052,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "22.5",
+      "offset": 36
+    }
+  ],
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+});
+formatter.result({
+  "duration": 101347,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "769.19",
+      "offset": 28
+    }
+  ],
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
+});
+formatter.result({
+  "duration": 209828,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 18,
+  "name": "Testar se o imposto está sendo calculado corretamente de acordo com a faixa salarial.",
+  "description": "",
+  "id": "calculo-do-imposto-de-renda-de-uma-pessoa-fisica.;testar-se-o-imposto-está-sendo-calculado-corretamente-de-acordo-com-a-faixa-salarial.;;7",
+  "type": "scenario",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "que recebo o salário bruto no valor de 4271.60",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 6,
+  "name": "realizo o cálculo do imposto",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 7,
+  "name": "o percentual da aliquota deverá ser 27.5",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 8,
+  "name": "o valor do imposto caculado 1174.69",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "E "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "4271.60",
+      "offset": 39
+    }
+  ],
+  "location": "ImpostoSteps.queReceboOSalárioBrutoNoValorDe(String)"
+});
+formatter.result({
+  "duration": 124667,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImpostoSteps.realizoOCálculoDoImposto()"
+});
+formatter.result({
+  "duration": 60284,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "27.5",
+      "offset": 36
+    }
+  ],
+  "location": "ImpostoSteps.oPercentualDaAliquotaDeveráSer(String)"
+});
+formatter.result({
+  "duration": 83615,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1174.69",
+      "offset": 28
+    }
+  ],
+  "location": "ImpostoSteps.oValorDoImpostoCaculado(String)"
+});
+formatter.result({
+  "duration": 99089,
   "status": "passed"
 });
 });

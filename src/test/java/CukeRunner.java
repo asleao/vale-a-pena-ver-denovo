@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "classpath:features/ar.feature",
+@CucumberOptions(features = "classpath:features",
         snippets= SnippetType.CAMELCASE,
         plugin = { "pretty",
                 "html:target/cucumber-html-report" },
